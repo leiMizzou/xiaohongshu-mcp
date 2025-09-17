@@ -1,0 +1,31 @@
+time="2025-09-17T20:04:50+08:00" level=info msg="启动 HTTP 服务器: :18060"
+2025/09/17 20:05:05 INFO wait for upload-content visible success
+2025/09/17 20:05:06 INFO foundcreator-tab elements count=4
+2025/09/17 20:05:06 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+time="2025-09-17T20:05:19+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 20:05:19 | 200 | 22.257467709s |             ::1 | POST     "/api/v1/publish"
+2025/09/17 20:25:19 INFO wait for upload-content visible success
+2025/09/17 20:25:20 INFO foundcreator-tab elements count=4
+2025/09/17 20:25:20 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 20:25:30 INFO 成功点击标签联想选项 tag=Citywalk
+2025/09/17 20:25:32 INFO 成功点击标签联想选项 tag=周末去哪儿
+2025/09/17 20:25:35 INFO 成功点击标签联想选项 tag=小众打卡地
+2025/09/17 20:25:37 INFO 成功点击标签联想选项 tag=城市漫步
+2025/09/17 20:25:40 INFO 成功点击标签联想选项 tag=发现城市的不同面
+time="2025-09-17T20:25:45+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 20:25:45 | 200 | 34.471498042s |             ::1 | POST     "/api/v1/publish"
+time="2025-09-17T21:08:26+08:00" level=info msg="Received Streamable HTTP request" method=tools/list
+[GIN] 2025/09/17 - 21:08:26 | 200 |     457.083µs |             ::1 | POST     "/mcp"
+time="2025-09-17T21:15:51+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-17T21:15:51+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-17T21:15:51+08:00" level=info msg="MCP: 发布内容 - 标题: AI生成的时尚穿搭灵感, 图片数量: 3, 标签数量: 6"
+2025/09/17 21:15:59 INFO wait for upload-content visible success
+2025/09/17 21:16:00 INFO foundcreator-tab elements count=4
+2025/09/17 21:16:00 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 21:16:10 INFO 成功点击标签联想选项 tag=AI穿搭
+2025/09/17 21:16:12 INFO 成功点击标签联想选项 tag=时尚灵感
+2025/09/17 21:16:14 INFO 成功点击标签联想选项 tag=Gemini
+2025/09/17 21:16:17 INFO 成功点击标签联想选项 tag=科技时尚
+2025/09/17 21:16:19 INFO 成功点击标签联想选项 tag=职场穿搭
+2025/09/17 21:16:21 INFO 成功点击标签联想选项 tag=街头潮流
+[GIN] 2025/09/17 - 21:16:26 | 200 | 35.439415292s |             ::1 | POST     "/mcp"
