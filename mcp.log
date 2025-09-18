@@ -29,3 +29,273 @@ time="2025-09-17T21:15:51+08:00" level=info msg="MCP: 发布内容 - 标题: AI�
 2025/09/17 21:16:19 INFO 成功点击标签联想选项 tag=职场穿搭
 2025/09/17 21:16:21 INFO 成功点击标签联想选项 tag=街头潮流
 [GIN] 2025/09/17 - 21:16:26 | 200 | 35.439415292s |             ::1 | POST     "/mcp"
+[GIN] 2025/09/17 - 21:25:33 | 404 |       3.291µs |             ::1 | POST     "/api/check-login-status"
+time="2025-09-17T21:25:53+08:00" level=info msg="GET /api/v1/login/status ai-report 200"
+[GIN] 2025/09/17 - 21:25:53 | 200 |  5.957001083s |             ::1 | GET      "/api/v1/login/status"
+time="2025-09-17T21:26:21+08:00" level=info msg="GET /api/v1/feeds/list ai-report 200"
+[GIN] 2025/09/17 - 21:26:21 | 200 |  7.909468792s |             ::1 | GET      "/api/v1/feeds/list"
+time="2025-09-17T21:26:41+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/17 - 21:26:41 | 200 |  6.559555875s |             ::1 | GET      "/api/v1/feeds/search?keyword=2025%E7%83%AD%E9%97%A8"
+time="2025-09-17T21:27:08+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/17 - 21:27:08 | 200 | 15.551828375s |             ::1 | GET      "/api/v1/feeds/search?keyword=%E5%B0%8F%E7%BA%A2%E4%B9%A6%E7%88%86%E6%AC%BE"
+time="2025-09-17T21:27:33+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/17 - 21:27:33 | 200 |  7.559244916s |             ::1 | GET      "/api/v1/feeds/search?keyword=%E7%94%9F%E6%B4%BB%E6%96%B9%E5%BC%8F"
+2025/09/17 21:32:23 INFO wait for upload-content visible success
+2025/09/17 21:32:24 INFO foundcreator-tab elements count=4
+2025/09/17 21:32:24 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 21:32:34 WARN 未找到标签联想下拉框，直接输入空格 tag=小红书运营
+2025/09/17 21:32:36 INFO 成功点击标签联想选项 tag=流量密码
+2025/09/17 21:32:39 INFO 成功点击标签联想选项 tag=发布时间
+2025/09/17 21:32:41 INFO 成功点击标签联想选项 tag=涨粉技巧
+2025/09/17 21:32:43 INFO 成功点击标签联想选项 tag=自媒体干货
+2025/09/17 21:32:46 INFO 成功点击标签联想选项 tag=运营攻略
+time="2025-09-17T21:32:51+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 21:32:51 | 200 | 38.400144083s |             ::1 | POST     "/api/v1/publish"
+2025/09/17 21:33:27 INFO wait for upload-content visible success
+2025/09/17 21:33:28 INFO foundcreator-tab elements count=4
+2025/09/17 21:33:29 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 21:33:42 WARN 未找到标签联想下拉框，直接输入空格 tag=2025趋势
+2025/09/17 21:33:44 INFO 成功点击标签联想选项 tag=生活方式
+2025/09/17 21:33:46 INFO 成功点击标签联想选项 tag=慢生活
+2025/09/17 21:33:48 INFO 成功点击标签联想选项 tag=极简主义
+2025/09/17 21:33:51 INFO 成功点击标签联想选项 tag=年轻人现状
+2025/09/17 21:33:53 INFO 成功点击标签联想选项 tag=生活美学
+time="2025-09-17T21:33:58+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 21:33:58 | 200 | 39.569102417s |             ::1 | POST     "/api/v1/publish"
+2025/09/17 21:34:31 INFO wait for upload-content visible success
+2025/09/17 21:34:32 INFO foundcreator-tab elements count=4
+2025/09/17 21:34:32 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 21:34:42 INFO 成功点击标签联想选项 tag=小红书运营
+2025/09/17 21:34:44 INFO 成功点击标签联想选项 tag=爆款标题
+2025/09/17 21:34:46 INFO 成功点击标签联想选项 tag=写作技巧
+2025/09/17 21:34:49 INFO 成功点击标签联想选项 tag=涨粉秘籍
+2025/09/17 21:34:51 INFO 成功点击标签联想选项 tag=自媒体
+2025/09/17 21:34:53 INFO 成功点击标签联想选项 tag=内容创作
+time="2025-09-17T21:34:58+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 21:34:58 | 200 | 35.509769708s |             ::1 | POST     "/api/v1/publish"
+2025/09/17 21:43:58 INFO wait for upload-content visible success
+2025/09/17 21:43:59 INFO foundcreator-tab elements count=4
+2025/09/17 21:43:59 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/17 21:44:09 INFO 成功点击标签联想选项 tag=泳装
+2025/09/17 21:44:11 INFO 成功点击标签联想选项 tag=比基尼
+2025/09/17 21:44:13 INFO 成功点击标签联想选项 tag=夏日穿搭
+2025/09/17 21:44:16 INFO 成功点击标签联想选项 tag=海滩度假
+2025/09/17 21:44:18 INFO 成功点击标签联想选项 tag=游泳
+2025/09/17 21:44:20 INFO 成功点击标签联想选项 tag=时尚
+2025/09/17 21:44:22 INFO 成功点击标签联想选项 tag=显瘦
+2025/09/17 21:44:25 INFO 成功点击标签联想选项 tag=新品推荐
+time="2025-09-17T21:44:30+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/17 - 21:44:30 | 200 | 39.351115292s |             ::1 | POST     "/api/v1/publish"
+[GIN] 2025/09/18 - 00:48:27 | 404 |       2.167µs |             ::1 | POST     "/check_login_status"
+time="2025-09-18T00:48:51+08:00" level=info msg="GET /api/v1/login/status ai-report 200"
+[GIN] 2025/09/18 - 00:48:51 | 200 |  5.693232375s |             ::1 | GET      "/api/v1/login/status"
+time="2025-09-18T00:49:11+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/18 - 00:49:11 | 200 |  6.735412708s |             ::1 | GET      "/api/v1/feeds/search?keyword=春季穿搭"
+time="2025-09-18T00:49:24+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/18 - 00:49:24 | 200 |  6.718642334s |             ::1 | GET      "/api/v1/feeds/search?keyword=浅春系"
+time="2025-09-18T00:51:30+08:00" level=error msg="POST /api/v1/publish  400"
+[GIN] 2025/09/18 - 00:51:30 | 400 |      302.25µs |             ::1 | POST     "/api/v1/publish"
+time="2025-09-18T00:51:45+08:00" level=error msg="POST /api/v1/publish  400"
+[GIN] 2025/09/18 - 00:51:45 | 400 |      170.25µs |             ::1 | POST     "/api/v1/publish"
+2025/09/18 00:52:20 INFO wait for upload-content visible success
+2025/09/18 00:52:21 INFO foundcreator-tab elements count=4
+2025/09/18 00:52:21 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/18 00:52:31 INFO 成功点击标签联想选项 tag=浅春系
+2025/09/18 00:52:33 INFO 成功点击标签联想选项 tag=春季穿搭
+2025/09/18 00:52:35 INFO 成功点击标签联想选项 tag=穿搭分享
+time="2025-09-18T00:52:40+08:00" level=info msg="POST /api/v1/publish  200"
+[GIN] 2025/09/18 - 00:52:40 | 200 | 27.734246833s |             ::1 | POST     "/api/v1/publish"
+time="2025-09-18T00:54:28+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/18 - 00:54:28 | 200 |  6.541417542s |             ::1 | GET      "/api/v1/feeds/search?keyword=预制菜"
+time="2025-09-18T00:54:40+08:00" level=info msg="GET /api/v1/feeds/search ai-report 200"
+[GIN] 2025/09/18 - 00:54:40 | 200 |  6.476994917s |             ::1 | GET      "/api/v1/feeds/search?keyword=懒人料理"
+[GIN] 2025/09/18 - 01:12:03 | 400 |      43.083µs |             ::1 | GET      "/mcp/status"
+time="2025-09-18T01:12:53+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:12:53+08:00" level=info msg="MCP: 检查登录状态"
+[GIN] 2025/09/18 - 01:12:56 | 200 |  3.718696333s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:13:10+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:13:10+08:00" level=info msg="MCP: 搜索Feeds"
+time="2025-09-18T01:13:10+08:00" level=info msg="MCP: 搜索Feeds - 关键词: 预制菜"
+[GIN] 2025/09/18 - 01:13:16 | 200 |  6.433763417s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:23:07+08:00" level=info msg="Received Streamable HTTP request" method=
+[GIN] 2025/09/18 - 01:23:07 | 200 |      244.25µs |             ::1 | POST     "/mcp/tools/call"
+time="2025-09-18T01:23:48+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:23:48+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T01:23:48+08:00" level=info msg="MCP: 发布内容 - 标题: 懒人救星❗️上班族的15分钟快手晚餐攻略, 图片数量: 3, 标签数量: 5"
+2025/09/18 01:23:55 INFO wait for upload-content visible success
+2025/09/18 01:23:56 INFO foundcreator-tab elements count=4
+2025/09/18 01:23:56 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/18 01:24:06 INFO 成功点击标签联想选项 tag=预制菜
+2025/09/18 01:24:08 INFO 成功点击标签联想选项 tag=上班族晚餐
+2025/09/18 01:24:11 INFO 成功点击标签联想选项 tag=快手料理
+2025/09/18 01:24:13 INFO 成功点击标签联想选项 tag=懒人福音
+2025/09/18 01:24:16 INFO 成功点击标签联想选项 tag=健康生活
+[GIN] 2025/09/18 - 01:24:20 | 200 | 32.726309708s |             ::1 | POST     "/mcp"
+[GIN] 2025/09/18 - 01:25:38 | 400 |      38.083µs |             ::1 | GET      "/mcp"
+time="2025-09-18T01:25:52+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:25:52+08:00" level=info msg="MCP: 获取Feeds列表"
+[GIN] 2025/09/18 - 01:25:59 | 200 |  6.236881875s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:26:49+08:00" level=info msg="Received Streamable HTTP request" method=tools/list
+[GIN] 2025/09/18 - 01:26:49 | 200 |     881.958µs |             ::1 | POST     "/mcp"
+time="2025-09-18T01:26:55+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:26:55+08:00" level=info msg="MCP: 检查登录状态"
+[GIN] 2025/09/18 - 01:26:58 | 200 |  3.673264708s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:27:04+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:27:04+08:00" level=info msg="MCP: 获取Feeds列表"
+[GIN] 2025/09/18 - 01:27:11 | 200 |  6.367420458s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:27:19+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:27:19+08:00" level=info msg="MCP: 搜索Feeds"
+time="2025-09-18T01:27:19+08:00" level=info msg="MCP: 搜索Feeds - 关键词: 预制菜"
+[GIN] 2025/09/18 - 01:27:26 | 200 |  6.446935042s |             ::1 | POST     "/mcp"
+[GIN] 2025/09/18 - 01:38:08 | 400 |      45.291µs |             ::1 | GET      "/mcp"
+time="2025-09-18T01:38:43+08:00" level=info msg="Received Streamable HTTP request" method=tools/list
+[GIN] 2025/09/18 - 01:38:43 | 200 |     389.334µs |             ::1 | POST     "/mcp"
+time="2025-09-18T01:38:50+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:38:50+08:00" level=info msg="MCP: 检查登录状态"
+[GIN] 2025/09/18 - 01:38:54 | 200 |  3.842755042s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:40:15+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:40:15+08:00" level=info msg="MCP: 获取Feeds列表"
+[GIN] 2025/09/18 - 01:40:22 | 200 |  6.546029416s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:40:35+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:40:35+08:00" level=info msg="MCP: 搜索Feeds"
+time="2025-09-18T01:40:35+08:00" level=info msg="MCP: 搜索Feeds - 关键词: 预制菜"
+[GIN] 2025/09/18 - 01:41:54 | 200 |         1m19s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:42:00+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:42:00+08:00" level=info msg="MCP: 搜索Feeds"
+time="2025-09-18T01:42:00+08:00" level=info msg="MCP: 搜索Feeds - 关键词: 方便菜"
+[GIN] 2025/09/18 - 01:42:05 | 200 |  4.879982584s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:42:11+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:42:11+08:00" level=info msg="MCP: 搜索Feeds"
+time="2025-09-18T01:42:11+08:00" level=info msg="MCP: 搜索Feeds - 关键词: 美食"
+[GIN] 2025/09/18 - 01:42:16 | 200 |   4.78672375s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:44:20+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:44:20+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T01:44:20+08:00" level=info msg="MCP: 发布内容 - 标题: 💥上班族的预制菜真相大公开！这些产品太好吃了, 图片数量: 3, 标签数量: 7"
+[GIN] 2025/09/18 - 01:44:20 | 200 |    1.627541ms |             ::1 | POST     "/mcp"
+time="2025-09-18T01:44:32+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:44:32+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T01:44:32+08:00" level=info msg="MCP: 发布内容 - 标题: 上班族必备预制菜推荐！, 图片数量: 3, 标签数量: 7"
+
+
+[31m2025/09/18 01:45:33 [Recovery] 2025/09/18 - 01:45:33 panic recovered:
+context deadline exceeded
+/Users/lei/go/pkg/mod/github.com/go-rod/rod@v0.116.2/lib/utils/utils.go:68 (0x1004e30c3)
+	init.func2: var Panic = func(v interface{}) { panic(v) }
+/Users/lei/go/pkg/mod/github.com/go-rod/rod@v0.116.2/must.go:36 (0x100513357)
+	New.New.(*Browser).WithPanic.genE.func1: fail(err)
+/Users/lei/go/pkg/mod/github.com/go-rod/rod@v0.116.2/must.go:583 (0x10050a5a7)
+	(*Page).MustElement: p.e(err)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/xiaohongshu/publish.go:37 (0x100527f03)
+	NewPublishImageAction: pp.MustElement(`div.upload-content`).MustWaitVisible()
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/service.go:127 (0x10052d64b)
+	(*XiaohongshuService).publishContent: action, err := xiaohongshu.NewPublishImageAction(page)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/service.go:99 (0x10052d457)
+	(*XiaohongshuService).PublishContent: if err := s.publishContent(ctx, content); err != nil {
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/mcp_handlers.go:72 (0x10052b53f)
+	(*AppServer).handlePublishContent: result, err := s.xiaohongshuService.PublishContent(ctx, req)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/streamable_http.go:297 (0x100530aa7)
+	(*AppServer).processToolCall: result = s.handlePublishContent(ctx, toolArgs)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/streamable_http.go:123 (0x10052ee63)
+	(*AppServer).processJSONRPCRequest: return s.processToolCall(ctx, request)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/streamable_http.go:90 (0x10052e9bb)
+	(*AppServer).handleJSONRPCRequest: response := s.processJSONRPCRequest(&request, r.Context())
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/streamable_http.go:35 (0x10052d10f)
+	setupRoutes.(*AppServer).StreamableHTTPHandler.func2: s.handleJSONRPCRequest(w, r)
+/opt/homebrew/Cellar/go/1.25.1/libexec/src/net/http/server.go:2322 (0x100354807)
+	HandlerFunc.ServeHTTP: f(w, r)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/utils.go:49 (0x10052cf23)
+	setupRoutes.WrapH.func3: h.ServeHTTP(c.Writer, c.Request)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go:185 (0x100470897)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lei/Documents/GitHub/xiaohongshu-mcp/middleware.go:22 (0x1005310e3)
+	setupRoutes.corsMiddleware.func1: c.Next()
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go:185 (0x100474e67)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/recovery.go:102 (0x100474e50)
+	CustomRecoveryWithWriter.func1: c.Next()
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go:185 (0x100474e67)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/recovery.go:102 (0x100474e50)
+	CustomRecoveryWithWriter.func1: c.Next()
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go:185 (0x100474223)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/logger.go:249 (0x100474208)
+	LoggerWithConfig.func1: c.Next()
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/context.go:185 (0x1004737d3)
+	(*Context).Next: c.handlers[c.index](c)
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/gin.go:644 (0x100473314)
+	(*Engine).handleHTTPRequest: c.Next()
+/Users/lei/go/pkg/mod/github.com/gin-gonic/gin@v1.10.1/gin.go:600 (0x1004730a3)
+	(*Engine).ServeHTTP: engine.handleHTTPRequest(c)
+/opt/homebrew/Cellar/go/1.25.1/libexec/src/net/http/server.go:3340 (0x10036ed2f)
+	serverHandler.ServeHTTP: handler.ServeHTTP(rw, req)
+/opt/homebrew/Cellar/go/1.25.1/libexec/src/net/http/server.go:2109 (0x100353047)
+	(*conn).serve: serverHandler{c.server}.ServeHTTP(w, w.req)
+/opt/homebrew/Cellar/go/1.25.1/libexec/src/runtime/asm_arm64.s:1268 (0x1001b50e3)
+	goexit: MOVD	R0, R0	// NOP
+[0m
+time="2025-09-18T01:45:33+08:00" level=error msg="服务器内部错误: context deadline exceeded, path: /mcp"
+time="2025-09-18T01:45:33+08:00" level=error msg="POST /mcp  500"
+[GIN] 2025/09/18 - 01:45:33 | 500 |          1m1s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:45:40+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:45:40+08:00" level=info msg="MCP: 检查登录状态"
+[GIN] 2025/09/18 - 01:45:45 | 200 |  4.673650625s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:46:43+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:46:43+08:00" level=info msg="MCP: 检查登录状态"
+[GIN] 2025/09/18 - 01:46:47 | 200 |  3.878385541s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:47:07+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:47:07+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T01:47:07+08:00" level=info msg="MCP: 发布内容 - 标题: 上班族必备预制菜推荐！, 图片数量: 3, 标签数量: 7"
+2025/09/18 01:47:15 INFO wait for upload-content visible success
+2025/09/18 01:47:16 INFO foundcreator-tab elements count=4
+2025/09/18 01:47:16 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/18 01:47:25 INFO 成功点击标签联想选项 tag=预制菜
+2025/09/18 01:47:28 INFO 成功点击标签联想选项 tag=上班族
+2025/09/18 01:47:30 INFO 成功点击标签联想选项 tag=美食推荐
+2025/09/18 01:47:32 INFO 成功点击标签联想选项 tag=方便菜
+2025/09/18 01:47:35 INFO 成功点击标签联想选项 tag=加班必备
+2025/09/18 01:47:37 INFO 成功点击标签联想选项 tag=生活技巧
+2025/09/18 01:47:39 INFO 成功点击标签联想选项 tag=省时省力
+[GIN] 2025/09/18 - 01:47:44 | 200 | 36.950767166s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:50:14+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:50:14+08:00" level=info msg="MCP: 获取Feeds列表"
+[GIN] 2025/09/18 - 01:50:21 | 200 |  6.617832417s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:50:45+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:50:45+08:00" level=info msg="MCP: 获取Feed详情"
+time="2025-09-18T01:50:45+08:00" level=info msg="MCP: 获取Feed详情 - Feed ID: 68c27e05000000001b033160"
+[GIN] 2025/09/18 - 01:50:54 | 200 |  8.691587791s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:54:29+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:54:29+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T01:54:29+08:00" level=info msg="MCP: 发布内容 - 标题: 00后程序员的高效学习日常！, 图片数量: 3, 标签数量: 9"
+2025/09/18 01:54:36 INFO wait for upload-content visible success
+2025/09/18 01:54:37 INFO foundcreator-tab elements count=4
+2025/09/18 01:54:37 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/18 01:54:47 INFO 成功点击标签联想选项 tag=程序员
+2025/09/18 01:54:49 INFO 成功点击标签联想选项 tag=00后
+2025/09/18 01:54:51 INFO 成功点击标签联想选项 tag=学习日常
+2025/09/18 01:54:54 INFO 成功点击标签联想选项 tag=编程
+2025/09/18 01:54:56 INFO 成功点击标签联想选项 tag=技术提升
+2025/09/18 01:54:58 INFO 成功点击标签联想选项 tag=效率
+2025/09/18 01:55:00 INFO 成功点击标签联想选项 tag=自律
+2025/09/18 01:55:03 INFO 成功点击标签联想选项 tag=程序员日常
+2025/09/18 01:55:05 INFO 成功点击标签联想选项 tag=学习方法
+[GIN] 2025/09/18 - 01:55:10 | 200 | 41.543746625s |             ::1 | POST     "/mcp"
+time="2025-09-18T01:59:40+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T01:59:40+08:00" level=info msg="MCP: 获取Feed详情"
+time="2025-09-18T01:59:40+08:00" level=info msg="MCP: 获取Feed详情 - Feed ID: 68c38f8f000000001c0092c9"
+[GIN] 2025/09/18 - 01:59:49 | 200 |  8.556485917s |             ::1 | POST     "/mcp"
+time="2025-09-18T02:02:40+08:00" level=info msg="Received Streamable HTTP request" method=tools/call
+time="2025-09-18T02:02:40+08:00" level=info msg="MCP: 发布内容"
+time="2025-09-18T02:02:40+08:00" level=info msg="MCP: 发布内容 - 标题: 专家分析：中国科技自立，不再依赖进口, 图片数量: 5, 标签数量: 8"
+2025/09/18 02:02:48 INFO wait for upload-content visible success
+2025/09/18 02:02:49 INFO foundcreator-tab elements count=4
+2025/09/18 02:02:49 ERROR 点击元素失败 error="element has no visible shape or outside the viewport: <div.creator-tab>"
+2025/09/18 02:02:59 INFO 成功点击标签联想选项 tag=科技自立
+2025/09/18 02:03:01 INFO 成功点击标签联想选项 tag=中国科技
+2025/09/18 02:03:04 INFO 成功点击标签联想选项 tag=技术突破
+2025/09/18 02:03:06 INFO 成功点击标签联想选项 tag=自主创新
+2025/09/18 02:03:08 INFO 成功点击标签联想选项 tag=科技发展
+2025/09/18 02:03:11 INFO 成功点击标签联想选项 tag=国家实力
+2025/09/18 02:03:13 INFO 成功点击标签联想选项 tag=产业升级
+2025/09/18 02:03:15 INFO 成功点击标签联想选项 tag=未来科技
+[GIN] 2025/09/18 - 02:03:20 | 200 | 40.537803792s |             ::1 | POST     "/mcp"
